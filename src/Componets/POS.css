@@ -1,0 +1,44 @@
+.pos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:  2rem;
+  }
+  
+  .pos form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom:  1rem;
+  }
+  
+  .pos input {
+    padding:  0.5rem;
+    margin-right:  0.5rem;
+    margin-bottom:  0.5rem;
+  }
+  
+  .pos table {
+    width:  70%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .pos th, .pos td {
+    padding:  0.5rem;
+    border:  1px solid #ccc;
+  }
+  
+  .pos th {
+    background-color: grey;
+  }
+  
+  .pos button {
+    padding:  0.5rem  1rem;
+    margin-left:  0.5rem;
+    cursor: pointer;
+  }
+  
+  .pos button:hover {
+    background-color: #ddd;
+  }

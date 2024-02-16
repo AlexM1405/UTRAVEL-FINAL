@@ -1,0 +1,21 @@
+.Container-userpage {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.Container-userpage h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.Container-userpage p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.Container-userpage h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

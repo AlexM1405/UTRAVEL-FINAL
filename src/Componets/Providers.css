@@ -1,0 +1,79 @@
+/* ProvidersDataTableStyles.css */
+
+/* General Table Styling */
+.p-datatable {
+    margin:  2em auto;
+    width:  80%;
+}
+
+/* Row Styles */
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+    background-color: #333 /* Alternate row background color */
+}
+
+
+/* Column Widths */
+.p-datatable .p-column-title[aria-label='text'] {
+    width:  200px; /* Fixed width for 'text' column */
+    margin: 50px;
+}
+
+.p-datatable .p-column-title[aria-label='price'] {
+    width:  25%; /* Percentage width for 'price' column */
+}
+
+/* Cell Content */
+.p-datatable .p-cell-data {
+    padding:  10px;
+    border-bottom:  1px solid #ccc;
+    margin: 40px;
+}
+
+/* Header Styling */
+.p-datatable .p-datatable-thead > tr > th {
+    font-weight: bold;
+    background-color: #333;
+    margin: 50px;
+}
+
+/* Footer Styling */
+.p-datatable .p-datatable-footer {
+    background-color: #eee;
+    padding:  10px;
+    text-align: right;
+}
+
+/* Gridlines */
+.p-datatable .p-datatable-gridlines .p-datatable-tbody > tr > td {
+    border:  1px solid #ddd;
+    margin: 50px;
+}
+
+/* Striped Rows */
+.p-datatable .p-datatable-striped .p-datatable-tbody > tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Sort Indicator */
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+    color: #333;
+}
+
+/* Custom Image Cell Styling */
+.p-datatable img {
+    max-width:  100%;
+    height: auto;
+}
+
+/* Additional Styles for Custom Components */
+.custom-datatable-header {
+    background-color: #333;
+    color: white;
+    padding:  10px;
+    margin: 50px;
+}
+
+.custom-datatable-footer {
+    padding:  10px;
+    text-align: right;
+}

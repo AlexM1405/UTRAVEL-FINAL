@@ -1,0 +1,119 @@
+
+video  {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.Video-container {
+   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px  rgba(0, 0, 0, 0,2);
+  object-fit: contain;
+}
+
+
+.LoginPage-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+ 
+.Signup-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Signup-Form h1 {
+    margin: 50px;
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .Signup-Form P {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .Signup-Form button {
+    justify-content: center;
+  }
+  
+  label {
+    margin-right: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+  }
+ 
+  input {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .input .email {
+    margin-left: 50px;
+  }
+  
+  button .SignIN {
+    padding: 10px 20px;
+    background-color:#252e48;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    
+  }
+  
+  button:hover {
+    background-color: #252e48;
+  }
+  
+  .Signup-logo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+   }
+   
+   .Signup-logo .Signup-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    
+   }
+  .Signup-logo :hover {
+    color: #646cff;
+  }
+   
+   
+   .signup-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+   }
+   
+   .signup-rights i {
+    margin-left: 8px;
+   }

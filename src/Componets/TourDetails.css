@@ -1,0 +1,66 @@
+
+.tour_content {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.image_and_booking {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .image_and_booking img {
+    width: 50%;
+   }
+   
+   .image_and_booking .Booking {
+    width: 50%;
+   }
+
+.tour_content img {
+    width: 1000px;
+    height: 700px;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    margin-left: 6.5rem;
+    margin-bottom: 40px;
+}
+.tour_info {
+    margin-left: 6.5rem;
+    border:1px solid #fff;
+    width: 1000px;
+}
+.tour_info h2 {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.tour_info h6 {
+    display: flex;
+    align-content: space-between ;
+    column-gap: 0.5rem;
+    font-size: 1.4rem;
+    color:#fff;
+    margin-left: 2rem;
+}
+
+.tour_extra_details {
+    align-items: center;
+    column-gap: 2.7rem;  
+    margin-bottom: 50px;
+}
+
+.tour_extra_details h2{
+    margin-left: 6.5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.tour_extra_details p{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 6.5rem;
+    margin-right: 45rem;
+    align-items: center;
+}
+
+

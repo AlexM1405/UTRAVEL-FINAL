@@ -1,0 +1,92 @@
+
+ 
+ /* Costumers_Container Styles */
+ .Costumers_Container  {
+    background-color: #242424;
+ }
+ 
+
+ 
+ /* Recomendations Styles */
+ .container_Recomendation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #242424;
+
+ }
+ 
+ .Recomendations {
+    text-align: center;
+ }
+ 
+ .Recomendations_Logo {
+    margin-top: 70px;
+    font-size: 6rem;
+    margin-bottom: 30px;
+    color: #fff;
+ }
+ 
+ .Recomendations h3 {
+    color: #fff;
+    font-size: 2em;
+ }
+ 
+ .Recomendations p {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 70px;
+ }
+ 
+
+ .container_Costumer-video {
+    display: flex;
+
+ }
+ 
+ .Costumer-text-container {
+    width: 100%;
+ }
+ 
+ .Costumer-text-container h2 {
+    color: #fff;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ .Costumer-text-container p {
+    color: #fff;
+    font-size: 1.3em;
+ }
+ 
+ .Costumer-text-container h1 {
+    color: #fff;
+    font-size: 5em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+ }
+ .Costumer-text-container h1:hover {
+    color: #646cff;
+ }
+
+ 
+ .Costumer-video-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 60px;
+    margin-bottom: 60px;
+ }
+ 
+ .VideoElement {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    object-fit: cover;
+    border-radius: 20px;
+ }
