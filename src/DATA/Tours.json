@@ -270,13 +270,12 @@
       "src": "images/img-63.jpg",
       "text": "Explore The beauty of the Swiss Alps",
       "label": "Family",
-      "path": "/services",
       "price": "$1300",
       "location": "Switzerland"
     },
     {
         "id": "3717ea75-a7b0-4f49-a490-98a02e3f528",
-        "src": "/public/images/img-80.jpeg",
+        "src": "images/img-80.jpeg",
         "text": "Explore The Beaty of Puerto Viejo",
         "label": "Family",
         "description":"",
@@ -296,7 +295,6 @@
       "src": "images/img-66.jpg",
       "text": "Enjoy The old City Oslo",
       "label": "Family",
-      "path": "/services",
       "price": "$1450",
       "location": "Norway"
     },
@@ -305,7 +303,6 @@
       "src": "images/Img-54.jpg",
       "text": "Explore The Amazing City of Bruselas",
       "label": "Family",
-      "path": "/services",
       "price": "$950",
       "location": "Belgium"
     }

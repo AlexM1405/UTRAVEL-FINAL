@@ -24,7 +24,6 @@ function Userpage() {
         <CustomerForm/>
         </div>
         <Footer/>
-
     </>
 
     
